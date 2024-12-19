@@ -1,5 +1,4 @@
-void check() {
-  int number = -2;
+void check(int number) {
   if (number > 0) {
     if (number % 2 == 0) {
       print("$number is positive and even");
@@ -17,5 +16,7 @@ void check() {
   }
 }
 main() {
-  check();
+  check(-2);
+  check(5);
+  check(0);
 }
