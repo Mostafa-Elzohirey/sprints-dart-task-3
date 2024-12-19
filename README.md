@@ -5,13 +5,13 @@ Categorize a list of numbers into even or odd
 
 
 
-declared a number
+declared a function that takes an integer as a parameter
 ```dart
-  int number = -2;
+void check(int number){}
 ```
 
 ## logic
-made a nested if condition to first determine either the number is positive, negative or zero then determine of the number was even or odd if the number isn't zero
+inside the function made a nested if condition to first determine either the number is positive, negative or zero then determine of the number was even or odd if the number isn't zero
 ```dart
     if (number > 0) {
 if (number % 2 == 0) {
